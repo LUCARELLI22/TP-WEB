@@ -1,0 +1,818 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orelega+One&display=swap');
+
+
+:root
+{
+--fuente-gral : "Plus Jakarta Sans", sans-serif;
+--btn-header-color : rgb(123, 129, 239);
+--color-iconos-text:  indigo;
+--color-bi-text-center : rgb(12, 19, 138);
+--fuente-otros : "Orelega One", serif;
+}
+
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+body {
+background-image: url("images/Background9.png");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+/* -----------------------------------------------------------header------------------------------------------------ */
+header
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 150px;
+margin-bottom: 60px;}
+
+
+
+header nav
+{
+text-align: center;
+font-size: 25px;
+text-shadow: 2px 2px 2px var(--btn-header-color);
+}
+
+
+header .bi-text-center
+{
+font-size: 20px;
+padding-left: 40px;
+color:  var(--color-bi-text-center);
+}
+
+header nav .barraup
+{
+text-decoration: none;
+margin-left: 60px;
+font-weight: 700;
+color: rgb(27, 21, 20);
+}
+
+
+header .btn
+{
+float: right;
+width: 80px;
+height: 30px;
+margin-right: 15px;
+border-radius: 8px;
+border: none;
+font-weight: 700;
+background-color: var(--btn-header-color);
+box-shadow: 2px 2px 2px 2px black;
+}
+
+
+header  .logo
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+padding-left: 9px;
+padding-top: 9px;
+box-shadow: 4px 4px   var(--color-iconos-text);
+}
+/* -----------------------------------------------------------header--------------------------------------------- */
+/* -------------------------------------proyectos--------------------------------------------------------------- */
+.seccion { 
+display: flex;
+
+}
+
+
+.seccion .h3
+{
+color: var(--btn-header-color);
+text-shadow: 2px 2px white;
+}
+
+main .proyect
+{
+text-align: center;
+}
+
+.seccion .proyecto
+{
+margin: 20px;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.seccion .proyecto img 
+{
+height: 100%;
+width: 100%;
+justify-content: center;
+align-items: center;
+text-align: center;
+border-radius: 10px;
+
+}
+
+
+.seccion .proyecto p
+{
+text-align: center;
+font-weight: 700;
+font-size: 20px;
+text-shadow: 4px 4px 4px var(--btn-header-color);
+padding-top: 15px;
+}
+
+
+.seccion .proyecto .imgs:hover
+{
+transition: 0.2s;
+opacity: 0.5;
+}
+
+.seccion .proyecto i
+{ font-size: 15px;
+color: var(--color-iconos-text);
+padding-left: 20px;
+
+}
+
+
+
+.btn-info
+{
+background-color: whitesmoke;
+font-weight: 700;
+border-radius: 12px;
+height: 40px;
+border: none;
+padding: 3px ;
+margin-top: 20px;
+margin-left: 30px;
+}
+
+
+/* proyectos--------------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------contacto--------------------------------------------- */
+.canal{
+display: flex;
+flex-direction: column;
+padding: 90px;
+}
+
+.canal .datos{
+display: flex;
+margin-bottom: 10px;
+}
+
+.canal .datos .data{
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
+
+.canal .datos i{
+color: var(--color-bi-text-center);
+padding: 20px;
+border-radius: 16px;
+margin-bottom: 20px;
+font-size: 20px;
+border-radius: 10px;
+background-color: rgb(206, 202, 202);
+}
+
+main .contactanos
+{
+display:flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+
+}
+
+main .contactanos .dato
+{
+font-weight: 600;
+}
+
+
+main .principal
+{
+margin-top: 20px;
+}
+
+main .servicios .one
+{
+
+width: 250px;
+height: 250px;
+margin-top: 100px;
+margin-right: 100px;
+padding-top: 20px;
+padding: 10px 10px 10px 10px;
+border: none;
+border-radius: 10px;
+box-shadow: 3px 3px 3px 3px white;
+}
+
+main .servicios .one .bi-box-fill
+{
+color: var(--color-iconos-text);
+
+}
+main .servicios .one .bi-terminal-fill
+{
+color: var(--color-iconos-text);
+
+}
+main .servicios .one .bi-globe2
+{
+color: var(--color-iconos-text);
+
+
+}
+
+
+main .nombre2
+{
+text-align: left;
+font-weight: 600;
+padding-left: 15px;
+
+}
+
+main .nombre1
+{
+color: cornflowerblue;
+padding-left: 15px;
+text-shadow: 2px 2px 2px black;
+}
+
+main .servicios .one .par
+{
+font-family: var(--fuente-otros);
+opacity: 0.6;
+}
+
+
+
+
+main .servicios
+{
+display: flex;
+height: 500px;
+margin-bottom: 90px ;
+justify-content: center;
+padding-left: 70px;
+text-align: center;
+}
+
+main .h1
+{
+text-align: center;
+
+}
+
+
+main .h3
+{
+text-align: center;
+color: var(--btn-header-color);
+padding-top: 40px;
+text-shadow:2px 2px  white;
+font-size: 25px;
+}
+
+main .cont
+{
+height: 100px;
+opacity: 0.5;
+padding-left: 600px;
+text-shadow: 2px 2px 2px indigo;
+}
+
+
+main .contactanos .formulario
+{
+width: 400px;
+height: 300px;
+margin:  auto;
+text-align: left;
+padding: 20px;
+border: none ;
+border-radius: 10px;
+box-shadow: 3px 3px 3px 3px white;
+background-color: #ccc;
+
+}
+
+
+main .contactanos .formulario .controls
+{
+margin-top: 10px;
+background-color: #ccc;
+border-radius: 10px;
+margin-bottom: 15px;
+background-color: #7886ad;
+color: var(--color-iconos-text);
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+}
+
+
+main .contactanos .formulario .area
+{
+width: 100%;
+padding: 12px 20px;
+margin-bottom: 20px;
+border-radius: 4px;
+font-size: 16px;
+}
+
+main .contactanos .formulario .enviar
+{
+border-radius: 8px;
+font-weight: 700;
+width: 150px;
+border: none;
+background-color: rgb(101, 63, 128);
+}
+
+main .navcon
+{
+    margin-right: 140px;
+}
+
+main  .contactanos .navcon .bi-phone-vibrate
+{  color: var(--color-iconos-text);
+font-size: 40px;
+text-shadow: 2px 2px 2px black;
+}
+
+
+main  .contactanos .navcon .bi-pin-map-fill
+{
+font-size: 40px;
+color: var(--color-iconos-text);
+text-shadow: 2px 2px 2px black;
+}
+
+
+main  .contactanos .navcon .bi-envelope
+{
+color: var(--color-iconos-text);
+font-size: 40px;
+text-shadow: 2px 2px 2px black;
+}
+
+main  .contactanos .navcon .dato
+{
+font-family: var(--fuente-otros);
+font-weight: 400;
+}
+
+
+
+
+main  .contactanos .navcon .eicon
+{
+display:flex;
+width: 50px;
+height: 50px;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------HERO--------------------------------------------------------------- */
+
+main .hero .nombre
+{
+text-align: left;
+padding-left: 20px;
+}
+
+
+main .hero
+{
+display: flex;
+height: 500px;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+
+main .imagen
+{
+width: 300px;
+height: 300px;
+border-radius: 8px;
+position: relative;
+right: 300px;
+}
+
+
+main .imagen1
+{
+width: 300px;
+height: 300px;
+border-radius: 10px;
+rotate: 10deg;
+background-color: rgb(36, 36, 140);
+}
+
+
+main .hero .principal .icon
+{
+color: black;
+margin-inline: 20px;
+
+}
+
+main .hero .art
+{
+width: 538px;  
+height: 289px;
+margin-top: 60px;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------testimonios------------------------------------------------------------ */
+
+main .testimonios
+{
+display: flex;
+height: 100%;
+width: 100%;
+justify-content: center;
+align-items: center;
+text-align: center;
+border: none;
+border-radius: 10px;
+margin-bottom: 200px;
+
+}
+
+main .testimonios .two
+{
+
+width: 250px;
+height: 250px;
+margin-inline: 60px;
+padding-top: 60px;
+background-color: rgb(143, 157, 235);
+border: none;
+border-radius: 10px;
+box-shadow: 3px 3px 3px 3px white;
+justify-content: center;
+align-items: center;
+
+}
+
+main .testimonios .two .p
+{
+font-family: var(--fuente-otros);
+opacity: 0.6;
+}
+
+
+
+main .testimonio
+{justify-content: left;
+height: 70px;
+text-align: left;
+padding-left: 30px;
+
+}
+
+main .cliente
+{
+color: var(--btn-header-color);
+padding-left: 20px;
+text-shadow: 2px 2px white;
+}
+
+main .testimonios .rostros
+{
+width: 80px;
+border-radius: 60%;
+position: relative;
+top: 50px;
+
+}
+
+
+main .testimonios .span
+{
+font-weight: 600;
+}
+
+main .testimonios .p
+{
+font-weight: 400;
+}
+
+main .testimonios .c
+{
+color: dimgray;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/*----------------------------------------------footer------------------------------------------------------------ */
+
+footer
+{display:inline-block;
+height: 50px;
+text-align: center;margin-left: 600px; 
+margin-top: 60px;
+}
+
+footer .barra .icon{
+color: black;
+margin-inline: 20px;
+
+}
+/* -----------------------------------media queries (iphone 12 pro : 390x844 px )------------------------------------------------------------ */
+@media screen and (max-width: 390px) 
+{
+
+header
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: auto;
+width: auto;
+padding-top: 10px;
+}
+
+main .imagen
+{position: relative;
+border-radius: 8px;
+right: 300px;
+margin-left: 280px;
+position: relative;
+width: 270px;
+height: 270px;
+left: 3px;
+bottom: 275px;
+}
+main .imagen1
+{
+width: 270px;
+height: 270px;
+border-radius: 10px;
+rotate: 10deg;
+background-color: rgb(36, 36, 140);
+margin-left: 280px;
+}
+
+main .hero .art .nombre1
+{justify-content: center;
+    align-items: center;
+text-align: center;
+width: 240px;
+}
+
+
+main .hero .art .nombre2
+{
+text-align: center;
+justify-content: center;
+    align-items: center;
+}
+
+
+main
+{
+display: flex;
+flex-direction: column;
+}
+
+
+main .nombre2
+{
+text-align: left;
+font-weight: 400;
+padding-left: 15px;
+font-size: 10px;
+
+}
+
+header .logo
+{
+margin-left: 15px;
+margin-top: 20px;
+}
+
+
+main .h1
+{text-align: left;
+height: auto;
+font-size: 30px;
+padding-left: 30px;
+} 
+
+
+main .h3
+{text-align: left;
+padding-top: 20px;
+color: var(--color-iconos-text);
+height: auto;
+font-size: 20px;
+padding-left: 65px;
+
+
+}
+
+
+main .cont
+{
+text-align: center;
+padding-left: 310px;
+}
+
+
+header nav
+{display: flex;
+justify-content: center;
+margin-left: 100px;
+font-size: 10px;
+}
+
+header .btn
+{
+float: right;
+width: 50px;
+height: 30px;
+border-radius: 8px;
+border: none;
+font-weight: 700;
+background-color: var(--btn-header-color);
+margin-left: 60px;
+color: black;
+}
+
+
+main .servicios
+{
+display: flex;
+height: 350px;
+margin-bottom: 140px ;
+justify-content: space-between;
+padding-left: 50px;
+text-align: center;
+width: 390px;
+margin-left: 10px;
+}
+
+main .servicios .one
+{
+
+width: 180px;
+height: 20em;
+margin-top: 100px;
+margin-right: 80px;
+padding-top: 20px;
+padding: 10px 10px 10px 10px ;
+align-items: center;
+justify-content: center;
+text-align: center;
+border: solid;
+border-radius: 10px;
+box-shadow: 3px 3px 3px 3px white;
+}
+
+main .servicios .one h2
+{
+font-size: 20px;
+}
+
+main .cliente
+{
+font-size: 20px;
+padding-left: 45px;
+}
+
+
+main .testimonios
+{
+display: flex;
+height: 300px;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+border: solid;
+border: none;
+border-radius: 10px;
+margin-bottom: 200px;
+margin-left: 10px;
+}
+
+main .testimonios .two
+{
+
+width: 170px;
+height: 250px;
+margin-inline: 45px;
+padding-top: 60px;
+background-color: rgb(143, 157, 235);
+border: solid;
+border-radius: 10px;
+box-shadow: 3px 3px 3px 3px white;
+justify-content: center;
+align-items: center;
+
+}
+
+main .navcon
+{
+margin-left: 130px;
+
+}
+
+
+
+main  .contactanos .navcon .dato
+{
+font-weight: 300;
+text-decoration: none;
+
+}
+
+
+
+
+main .proyect
+{
+font-size: 20px;
+padding-left: 20px;
+}
+
+main .contactanos
+{
+display: flex;
+margin-left: 480px;
+}
+
+.canal{
+display: flex;
+flex-direction: column;
+padding: 90px;
+margin-left: 30px;
+}
+
+.seccion { 
+    display: inline-block;
+margin-left: 250px;
+width: 100%;
+
+}
+
+
+main .contactanos .formulario
+{
+
+width: 100%;
+height: 100%;
+}
+
+
+
+footer
+{
+display:inline;
+width: 100%;
+}
+
+
+footer .barra
+{
+display: flex;
+justify-content: center;
+margin-left: 420px;
+}
+
+footer h5
+{display: flex;
+margin-left: 390px;
+padding-bottom: 25px;
+}
+
+}
+
+
+/* -----------------------------------THE END----------------------------------------------- */
