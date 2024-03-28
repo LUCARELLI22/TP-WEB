@@ -602,6 +602,18 @@ display: flex;
 flex-direction: column;
 }
 
+main .hero .art .nombre
+{
+padding-left: 30px;
+}
+
+
+main .hero .principal
+{
+align-items: center;
+justify-content: center;
+}
+
 
 main .nombre2
 {
@@ -780,6 +792,12 @@ margin-left: 30px;
 margin-left: 250px;
 width: 100%;
 
+}
+
+
+main .contactanos .formulario .enviar
+{
+margin-left: 18px;
 }
 
 
